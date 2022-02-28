@@ -13,8 +13,10 @@ e.g. on Windows: `C:\users\yourName\documents\maya\plug-ins`.
 - Enable the plugin via `Windows ► Settings/Preferences ► Plug-in Manager`.
 
 ## Use
+Tweening is available via a *Maya command* which you can add to any shelf, or assign a shorcut.
 
-Tweening is available via a *Maya command* which you can add to any shelf, or assign a shorcut. An icon `dutween.png` is provided to be used in shelves if you wish.
+![](https://github.com/RxLaboratory/DuMAF_DuTween/blob/main/dutween.png)  
+An icon `dutween.png` is provided to be used in shelves if you wish.
 
 The command is `dutween`.
 
@@ -31,11 +33,14 @@ cmds.dutween()
 dutween
 ```
 
-You can also use some parameters to automatically add a keyframe, for example to use it in your own scripts, or to add buttons with predefined values in a shelf.
+![](https://github.com/RxLaboratory/DuMAF_DuTween/blob/main/dutween_screenshot.png)
+
+You can also use some parameters to automatically add a keyframe without showing the interface, for example to use it in your own scripts, or to add buttons with predefined values in a shelf.
 
 - `ratio` or `r`: a value in the range `[0.0, 1.0]`. Sets the tweening ratio.
 
-```# Python
+```py
+# Python
 import maya.cmds as cmds
 cmds.dutween(r=0.75)
 ```
