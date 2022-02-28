@@ -14,7 +14,7 @@ e.g. on Windows: `C:\users\yourName\documents\maya\plug-ins`.
 
 ## Use
 
-Tweening is available via a *Maya command* which you can add to any shelf, or assign a shorcut.
+Tweening is available via a *Maya command* which you can add to any shelf, or assign a shorcut. An icon `dutween.png` is provided to be used in shelves if you wish.
 
 The command is `dutween`.
 
