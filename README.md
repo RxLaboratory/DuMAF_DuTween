@@ -12,6 +12,8 @@ e.g. on Windows: `C:\users\yourName\documents\maya\plug-ins`.
 
 - Enable the plugin via `Windows ► Settings/Preferences ► Plug-in Manager`.
 
+You can also simply open and run the script without installation if you prefer. Just open the script in the script editor and run it.
+
 ## Use
 
 Tweening is available via a *Maya command* which you can add to any shelf, or assign a shorcut. You can also simply open and run the script without installation.
@@ -21,7 +23,7 @@ An icon `dutween.png` is provided to be used in shelves if you wish.
 
 The command is `dutween`.
 
-When used without parameters, it shows a simple user interface with a slider and a value to tween the selected objects.
+When used without parameters, it shows a simple user interface with a slider and a value to tween the selected objects. If some attributes are selected in the attribute editor, only these attributes are tweened. To improve performance, don't add too many keyframes: the less keyframes there are, the more performant the tool will be.
 
 ```py
 # Python
