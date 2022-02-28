@@ -19,7 +19,7 @@ import maya.cmds as cmds
 
 vendor = "RxLaboratory"
 version = "1.0.0"
-debug_mode = True
+debug_mode = False
 
 # <=== GENERAL FUNCTIONS ===>
 
