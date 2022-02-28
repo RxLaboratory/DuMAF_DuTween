@@ -23,7 +23,7 @@ An icon `dutween.png` is provided to be used in shelves if you wish.
 
 The command is `dutween`.
 
-When used without parameters, it shows a simple user interface with a slider and a value to tween the selected objects. If some attributes are selected in the attribute editor, only these attributes are tweened. To improve performance, don't add too many keyframes: the less keyframes there are, the more performant the tool will be.
+When used without parameters, it shows a simple user interface with a slider and a value to tween the selected objects. If some attributes are selected in the attribute editor, only these attributes are tweened. To improve performance, don't add too many keyframes: the less keyframes there are, the quicker it will be.
 
 ```py
 # Python
