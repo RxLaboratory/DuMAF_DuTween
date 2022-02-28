@@ -13,7 +13,8 @@ e.g. on Windows: `C:\users\yourName\documents\maya\plug-ins`.
 - Enable the plugin via `Windows ► Settings/Preferences ► Plug-in Manager`.
 
 ## Use
-Tweening is available via a *Maya command* which you can add to any shelf, or assign a shorcut.
+
+Tweening is available via a *Maya command* which you can add to any shelf, or assign a shorcut. You can also simply open and run the script without installation.
 
 ![](https://github.com/RxLaboratory/DuMAF_DuTween/blob/main/dutween.png)  
 An icon `dutween.png` is provided to be used in shelves if you wish.
